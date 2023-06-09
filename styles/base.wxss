@@ -1,0 +1,177 @@
+ 
+/* 字体大小 */
+.f-little{font-size: 18rpx;}
+.f-icontext{font-size: 22rpx;}/* 很小的文字,一般和图标一起使用 */
+.f-caption{font-size: 24rpx;}/* 辅助描述性文字 */
+.f-desc{font-size: 26rpx;}/* 段落字体 */
+.f-paragraph{font-size: 28rpx;}/* 段落字体 */
+.f-min-title{font-size: 30rpx;}
+.f-title{font-size: 32rpx;}/* 标题 */
+.f-sm-title{font-size: 36rpx;}/* 大点的标题 */ 
+.f-md-title{font-size: 40rpx;}/* 大点的标题 */ 
+.f-lg-title{font-size: 42rpx;}/* 大点的标题 */ 
+.f-big-title{font-size: 46rpx;}/* 大点的标题 */ 
+ 
+
+/* 字体颜色 */
+.c-base{color:#ffffff;}/* 白色 */
+.c-black{color: #000000;}/* 黑色 */
+.c-title{color: #232A24}/* 标题/副标题 */
+.c-desc{color:#3D2C1B;}/* 辅助描述性文字 */
+.c-caption{color:#999999;}/* 辅助描述性文字 */
+.c-disable{color: #c7c7c7;}/* 按钮文字禁用 */
+.c-paragraph{color:#666666;}/* 段落字体 */
+.c-success{color:#1BCA62;}/* 成功/链接文字 */ 
+.c-alipay{color:#01AAF2;}/* 支付宝支付文字 */ 
+.c-balance{color:#FA7917;}/* 🈷余额支付文字 */ 
+.c-tips{color:#ffd753;}/* 失效 */ 
+.c-warning{color:#FF2404;}/* 警告/非法 */  
+.c-nodata{color:#cccccc;}/* 链接文字 */
+.c-shadow{text-shadow:2rpx 2rpx 2rpx #808080;}/* 字体阴影 */
+
+
+
+/* 填充色 */
+.fill-base{background:#ffffff;}/* 默认 */
+.fill-body{background:#f7f7f7;}/* 页面 */
+.fill-primary{background:#19c865;}/* 主题色/主要活动按钮 */
+.fill-caption{background:#ffd753;}/* 辅助色 */
+.fill-warning{background:#f12c20;}/* 警告/非法 */ 
+.fill-second{background:#efeff4;}/* 区块分割线 */
+.fill-space{background: #FCFCFC;}/* 次要活动按钮 */
+
+/* 阴影 */
+.box-shadow{box-shadow: 0px 3px 6px 0px rgba(227, 227, 227, 0.47);}
+.box-shadow-mini{box-shadow: 2rpx 0 10rpx rgba(4,0,0,0.08);}
+
+/* 字体样式 */
+text{vertical-align: middle;}/* 上下居中 */
+.text-left{text-align: left;}/* 左对齐 */
+.text-center { text-align: center}/* 中对齐 */
+.text-right {text-align: right}/* 右对齐 */
+.text-justify{text-align: justify;}/* 两端对齐，谨慎使用 */
+.text-justify::after{content: '';width: 100%;display: inline-block;}
+.text-delete {text-decoration: line-through}/* 删除线 */
+.text-underline{text-decoration: underline}/* 下划线 */ 
+.text-bold{ font-weight:bold;}/* 加粗 */
+.text-normal{ font-weight:normal;}
+
+
+/* 文本溢出省略 */
+.ellipsis{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.ellipsis-2{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;overflow: hidden;}
+.ellipsis-3{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:3;overflow: hidden;}
+.ellipsis-4{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:4;overflow: hidden;}
+ 
+/* 最大宽度 */
+.max-100{max-width: 100rpx;}
+.max-150{max-width: 150rpx;}
+.max-200{max-width: 200rpx;}
+.max-270{max-width: 270rpx;}
+.max-300{max-width: 300rpx;}
+.max-350{max-width: 350rpx;}
+.max-380{max-width: 380rpx;}
+.max-400{max-width: 400rpx;}
+.max-446{max-width: 446rpx;}
+.max-450{max-width: 450rpx;}
+.max-470{max-width: 470rpx;}
+.max-500{max-width: 500rpx;}
+.max-510{max-width: 510rpx;}
+.max-520{max-width: 520rpx;}
+.max-540{max-width: 540rpx;}
+.max-550{max-width: 550rpx;}
+.max-566{max-width: 566rpx;}
+.max-580{max-width: 580rpx;}
+
+/* 外间距 */
+.mg-sm{margin:10rpx;}
+.mg-md{margin:20rpx;}
+.mg-lg{margin:30rpx;}
+
+.mt-sm{margin-top:10rpx;}
+.mt-md{margin-top:20rpx;}
+.mt-lg{margin-top:30rpx;}
+
+.mr-sm{margin-right:10rpx;}
+.mr-md{margin-right:20rpx;}
+.mr-lg{margin-right:30rpx;}
+
+.mb-sm{margin-bottom:10rpx;}
+.mb-md{margin-bottom:20rpx;}
+.mb-lg{margin-bottom:30rpx;}
+
+.ml-sm{margin-left:10rpx;}
+.ml-md{margin-left:20rpx;}
+.ml-lg{margin-left:30rpx;}
+
+
+/* 内间距 */ 
+.pd-sm{padding:10rpx;}
+.pd-md{padding:20rpx;}
+.pd-lg{padding:30rpx;}
+
+.pt-sm{padding-top:10rpx;}
+.pt-md{padding-top:20rpx;}
+.pt-lg{padding-top:30rpx;}
+
+.pr-sm{padding-right:10rpx;}
+.pr-md{padding-right:20rpx;}
+.pr-lg{padding-right:30rpx;}
+
+.pb-sm{padding-bottom:10rpx;}
+.pb-md{padding-bottom:20rpx;}
+.pb-lg{padding-bottom:30rpx;}
+ 
+.pl-sm{padding-left:10rpx;}
+.pl-md{padding-left:20rpx;}
+.pl-lg{padding-left:30rpx;}
+
+
+/* 图标尺寸 */
+.icon-xs{width:32rpx; height:32rpx;display: block;font-size: 32rpx;} 
+.icon-sm{width:44rpx; height:44rpx;display: block;font-size: 44rpx;}
+.icon-md{width:60rpx; height:60rpx;display: block;font-size: 60rpx;} 
+.icon-lg{width:80rpx; height:80rpx;display: block;font-size: 80rpx;}  
+
+
+/* 组件间距 */
+.space-sm{height: 10rpx;}
+.space-md{height: 20rpx;}
+.space-lg{height: 30rpx;}
+.space-lg{height: 30rpx;}
+.space-body{height: 150rpx;}
+.space-safe{height: calc(env(safe-area-inset-bottom) / 2);padding-bottom: calc( env(safe-area-inset-bottom) / 2);}
+.space-footer{height: 30rpx;height: calc(30rpx + env(safe-area-inset-bottom) / 2);padding-bottom: calc( env(safe-area-inset-bottom) / 2);}
+.space-tabbar-footer{height: 100rpx;height: calc(100rpx + env(safe-area-inset-bottom) / 2);padding-bottom: calc( env(safe-area-inset-bottom) / 2);}
+.space-max-footer{height: 180rpx;height: calc(180rpx + env(safe-area-inset-bottom) / 2);padding-bottom: calc(env(safe-area-inset-bottom) / 2);}
+.space{height: 1rpx ;background: rgba(216, 216, 216, 0.5);} 
+
+  
+/* 圆角 */
+.radius{border-radius: 5000rpx;}
+.radius-5 {border-radius: 5rpx;}
+.radius-10 {border-radius: 10rpx;}
+.radius-16 {border-radius: 16rpx;}  
+.radius-20 {border-radius: 20rpx;}  
+.radius-26 {border-radius: 26rpx;}
+.radius-34 {border-radius: 34rpx;}
+
+/* 旋转 */
+.rotate-45{transform: rotate(45deg);}
+.rotate-90{transform: rotate(90deg);}
+.rotate-180{transform: rotate(180deg);}
+.rotate-270{transform: rotate(270deg);}
+
+/* 定位 */
+.rel{position: relative;}
+.abs{position: absolute;}
+.fix{position: fixed;width: 100%;z-index: 100;}
+.fixed-top{position: fixed;left: 0;right: 0;top: 0;z-index: 100;}
+.fixed-bottom{position: fixed;left: 0;right: 0;bottom: 0;z-index: 100;}
+
+/* 灰度 */
+.grayscale {-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+
+
+/* 字体颜色 */
+.icon-font-color{-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
